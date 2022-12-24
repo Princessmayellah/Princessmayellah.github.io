@@ -41,8 +41,8 @@ h2{
     width: ;
     margin: 0 auto;
 } */
-#home-header {
-    background: #fff url(/assets/images/girl.jpg) no-repeat;
+header {
+    background: #fff url(../images/girl.jpg) no-repeat;
     padding: 240px;
     background-attachment: fixed;
     background-size: cover;
@@ -211,8 +211,12 @@ textarea#message {
 /* Footer Styles */
 
 footer, a {
+<<<<<<< HEAD
     color: rgb(255, 255, 255);
 
+=======
+    color: #fff;
+>>>>>>> parent of 97f79f3 (added About Us and Bootstrap)
 }
 footer {
     background: #1a1a1a;
@@ -271,6 +275,7 @@ footer h3 {
 }
 span.copyright {
     margin-top: 20px;
+<<<<<<< HEAD
 }
 
 
@@ -327,3 +332,6 @@ span.copyright {
     -webkit-overflow-scrolling: touch;
   }
   
+=======
+}
+>>>>>>> parent of 97f79f3 (added About Us and Bootstrap)
