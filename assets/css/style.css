@@ -5,7 +5,7 @@
     padding: 0; 
 }
 a {
-    text-decoration: none;
+    text-decoration: none  !important;
 }
 body, form, input, textarea {
     font-family: 'Montserrat', sans-serif;
@@ -31,7 +31,7 @@ h2{
     margin-bottom: 27px;
     color: white;
 }
-h1{
+#home-header h1{
     font-size: 40px;
     margin-top: 60px;
     margin-left: -160px;
@@ -61,6 +61,33 @@ nav.header-navigation a {
 nav.header-navigation a:hover {
 color: #00ff0d;
 }
+#about-header h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  #about-header {
+    background: #fff url(/assets/images/about/image3.jpg) no-repeat;
+    padding: 240px;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  nav.about-header-navigation {
+    margin-bottom: 150px;
+    margin-top: -160px;
+    margin-left: -160px;
+  }
+  nav.about-header-navigation a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 13px;
+    color: #ffffff;
+  }
+  nav.about-header-navigation a:hover {
+  color: #00ff0d;
+  }
+  
 /* Add your Banner here */
 
 
@@ -182,8 +209,10 @@ textarea#message {
 
 
 /* Footer Styles */
+
 footer, a {
     color: rgb(255, 255, 255);
+
 }
 footer {
     background: #1a1a1a;
@@ -243,6 +272,8 @@ footer h3 {
 span.copyright {
     margin-top: 20px;
 }
+
+
 
 /* Bootstrap */
 .bd-placeholder-img {
