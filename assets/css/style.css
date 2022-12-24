@@ -154,10 +154,11 @@ input[type="text"], select{
     width: 100%;
 
 }
-textarea#message {
+textarea#about-message {
     border: 1px solid #000;
     border-radius: 9px;
     display: block;
+    height: 150px;
     width: 100%;
     background: transparent;
 }
