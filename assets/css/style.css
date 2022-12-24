@@ -212,7 +212,6 @@ textarea#message {
 
 footer, a {
     color: rgb(255, 255, 255);
-
 }
 footer {
     background: #1a1a1a;
@@ -272,8 +271,6 @@ footer h3 {
 span.copyright {
     margin-top: 20px;
 }
-
-
 
 /* Bootstrap */
 .bd-placeholder-img {
