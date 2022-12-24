@@ -94,7 +94,7 @@ color: #00ff0d;
 
 /* Add your About Styles here*/
 section.about-section {
-    background: url(https://images.pexels.com/photos/90764/man-studio-portrait-light-90764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background: url(/assets/images/);
     padding: 120px;
     background-size: cover;
     background-attachment: fixed;
