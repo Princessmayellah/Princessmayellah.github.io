@@ -163,6 +163,14 @@ textarea#about-message {
     width: 100%;
     background: transparent;
 }
+textarea#message {
+    border: 1px solid #000;
+    border-radius: 9px;
+    display: block;
+    height: 150px;
+    width: 100%;
+    background: transparent;
+}
 
 .form-container input[type="button"]{
     width: 30%;
@@ -175,10 +183,22 @@ textarea#about-message {
     cursor: pointer;
     margin-left: 70%;
 }
+.about-container input[type="button"]{
+    width: 30%;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 70%;
+}
 
 .form-container input[type="button"]:hover{
     background-color: #45a049;
 }
+
 
 .form-container form{
     margin-left: 45%;
@@ -244,6 +264,7 @@ section.footer-1 input[type="button"]{
     border: none;
     cursor: pointer;
 }
+
 footer h3 {
     line-height: 25px;
 }
