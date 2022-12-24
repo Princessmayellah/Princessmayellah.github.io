@@ -211,12 +211,8 @@ textarea#message {
 /* Footer Styles */
 
 footer, a {
-<<<<<<< HEAD
     color: rgb(255, 255, 255);
 
-=======
-    color: #fff;
->>>>>>> parent of 97f79f3 (added About Us and Bootstrap)
 }
 footer {
     background: #1a1a1a;
@@ -275,7 +271,6 @@ footer h3 {
 }
 span.copyright {
     margin-top: 20px;
-<<<<<<< HEAD
 }
 
 
@@ -332,6 +327,3 @@ span.copyright {
     -webkit-overflow-scrolling: touch;
   }
   
-=======
-}
->>>>>>> parent of 97f79f3 (added About Us and Bootstrap)
