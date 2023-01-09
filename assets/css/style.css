@@ -21,51 +21,59 @@ p {
     font-size: 18px;
 }
 .banner p{
-    color: white;
-    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     margin-left: -160px;
 }
 h2{
     text-transform: uppercase;
     font-size: 35px;
     margin-bottom: 27px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #home-header h1{
     font-size: 40px;
     margin-top: 60px;
     margin-left: -160px;
-    color: rgb(0, 89, 255);
+    color: rgb(0, 17, 255);
 }
 /* .container {
     width: ;
     margin: 0 auto;
 } */
 header {
-    background: #fff url(../images/girl.jpg) no-repeat;
+    background: #fff url(/assets/images/Flower.jpg);
     padding: 240px;
     
     background-size: cover;
 }
 #about-header {
-    background: #fff url(/assets/images/pexels-michał-ludwiczak-1239162.jpg) no-repeat;
+    background: #fff url(/assets/images/Flower.jpg);
     padding: 240px;
-    
+    color: rgb(0, 0, 0);;
     background-size: cover;
+}
+#about-header h1{
+    text-align: center;
 }
 nav.header-navigation {
     margin-bottom: 150px;
     margin-top: -160px;
     margin-left: -160px;
+    margin-left: 270px;
 }
 nav.header-navigation a {
     font-size: 18px;
     text-decoration: none;
     margin: 13px;
-    color: #ffffff;
+    color: #000000;
+    border-bottom: #000;
 }
 nav.header-navigation a:hover {
-color: #00ff0d;
+border-bottom: 3px solid black;
+}
+nav.header-navigation a.active {
+    border-bottom: 3px solid black;
 }
 
 /* Add your Banner here */
@@ -74,24 +82,45 @@ color: #00ff0d;
 
 /* Add your About Styles here*/
 section.about-section {
-    background: url(/assets/images/man-studio-portrait-light-90764.webp);
-    padding: 120px;
+    background: #fff url(/assets/images/flower1.jpg);
+    padding: 100px;
     background-size: cover;
 
 
 }
-.about-me {
+/* .about-me {
     width: 50%;
     text-align: left;
     display: inline-block;
 }
 .about-me p {
     margin-bottom: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
-.about-section{
+#about{
     direction: rtl;
 }
+.about-left{
+    direction: rtl;
+} */
+.container-left{
+    direction: rtl;
+    margin-top: -450px;
+}
+.about-me-left{
+    width: 50%;
+    text-align: left;
+}
+.about-me-left p{
+    margin-bottom: 15px;
+    color: #000;
+}
+.about-right img{
+    width: 500;
+    height: 500;
+}
+
+
 
 
 
@@ -115,8 +144,8 @@ section#skills .row-2 {
     margin: 2%;
 }
 section#skills {
-    background: url(/assets/images/pexels-daniel-reche-1556704.jpg);
-    color: #fff;
+    background: url(/assets/images/flower1.jpg);
+    color: rgb(0, 0, 0);
     background-size: cover;
 
     padding: 50px;
@@ -127,14 +156,14 @@ section#skills {
 section.quote {
     padding: 90px 50px;
     text-align: center;
-    background: #002e3f;
+    background: #000000;
     color: #fff;
 }
 
 
 /* Contact Styles */
 section#contact {
-    background: url(/assets/images/contact.jpg);
+    background: url(/assets/images/flower2.jpg);
     background-size: cover;
     
     padding: 180px;
@@ -216,7 +245,7 @@ footer {
     background: #1a1a1a;
     padding: 50px;
 }
-section.footer-1 .col {
+/* section.footer-1 .col {
     vertical-align: top;
     width: 30%;
     display: inline-block;
@@ -229,13 +258,14 @@ section.footer-1 .col ul li img {
 section.footer-1 .col ul li {
     list-style: none;
     display: inline-block;
-}
-.footer-1 form {
+} */
+/* .footer-1 form {
     width: 100%;
     margin-top: 24px;
-}
+} */
 .social-media-icon {
     margin-top: 15px;
+    text-align: center;
 }
 .social-media-icon a {
     font-size: 45px;
@@ -243,15 +273,15 @@ section.footer-1 .col ul li {
 .social-media-icon a:hover {
     color: #4CAF50;
 }
-.footer-1 input#email {
+/* .footer-1 input#email {
     border: 1px solid #fff;
     border-radius: 20px;
     margin-bottom: 12px;
     width: 100%;
     height: 30px;
     color: white;
-}
-section.footer-1 input[type="button"]:hover{
+} */
+/* section.footer-1 input[type="button"]:hover{
     background-color: #45a049;
 }
 section.footer-1 input[type="button"]{
@@ -263,14 +293,14 @@ section.footer-1 input[type="button"]{
     margin-bottom: 2%;
     border: none;
     cursor: pointer;
-}
+} */
 
-footer h3 {
+/* footer h3 {
     line-height: 25px;
-}
+} */
 span.copyright {
     margin-top: 20px;
-
+    text-align: center;
 }
 
 /* Bootstrap CSS */
